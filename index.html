@@ -13,12 +13,14 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
-   </head>
+      <title>Adewale Olayemi | Data Scientist &amp; Geospatial Analyst</title>
+   <meta name="description" content="Explore Adewale Olayemi’s projects in data science, geospatial analysis and remote sensing.">
+</head>
    <body>
+<a class="skip-link" href="#main">Skip to content</a>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         <nav class="nav container">
+         <nav class="nav container" aria-label="Main navigation">
             <a href="#" class="nav__logo">
                <span class="nav__logo-circle">A</span>
                <span class="nav__logo-name">Adewale Olayemi.</span>
@@ -48,59 +50,55 @@
                </ul>
 
                <!-- Close button-->
-               <div class="nav__close" id="nav-close">
+               <button type="button" class="nav__close" id="nav-close" aria-label="Close menu">
                   <i class="ri-close-line"></i>
-               </div>
+               </button>
             </div>
 
             <div class="nav__buttons">
                <!-- Toggle button -->
-               <div class="nav__toggle" id="nav-toggle">
+               <button type="button" class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
                   <i class="ri-menu-4-line"></i>
-               </div>
+               </button>
             </div>
          </nav>
       </header>
 
       <!--==================== MAIN ====================-->
-      <main class="main">
+      <main class="main" id="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
             <div class="home__container container grid">
-               <h1 class="home__name">
-                  Adewale Olayemi
-               </h1>
+               <h1 class="home__name"><span class="home__eyebrow">DATA SCIENCE · GEOSPATIAL · EARTH OBSERVATION</span>Adewale<br>Olayemi<span class="accent">.</span></h1>
 
                <div class="home__perfil">
                   <div class="home__image">
-                     <img src="assets/img/headshot.png" alt="image" class="home__img">
-                     <div class="home__shadow"></div>
+                     <img src="assets/img/headshot.png" alt="Portrait of Adewale Olayemi" class="home__img" fetchpriority="high">
 
-                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
-                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
 
-                     <div class="geometric-box"></div>
+
+
+
+
                   </div>
 
                   <div class="home__social">
-                     <a href="https://www.linkedin.com/in/adewale004//" target="_blank" class="home__social-link">
+                     <a href="https://www.linkedin.com/in/adewale004/" target="_blank" rel="noopener noreferrer" class="home__social-link" aria-label="LinkedIn">
                         <i class="ri-linkedin-box-line"></i>
                      </a>
 
-                     <a href="https://github.com/adewale004/" target="_blank" class="home__social-link">
+                     <a href="https://github.com/adewale004/" target="_blank" rel="noopener noreferrer" class="home__social-link" aria-label="GitHub">
                         <i class="ri-github-line"></i>
                      </a>
 
-                     <a href="https://twitter.com/iseoluwa____/" target="_blank" class="home__social-link">
+                     <a href="https://twitter.com/iseoluwa____/" target="_blank" rel="noopener noreferrer" class="home__social-link" aria-label="Twitter">
                         <i class="ri-twitter-line"></i>
                      </a>
                   </div>
                </div>
 
                <div class="home__info">
-                  <p class="home__description">
-                     <b>Data Scientist | Geospatial Analyst</b>
-                  </p>
+                  <p class="home__description">Data Scientist &amp; Geospatial Analyst</p><p class="home__pitch">Turning complex data into meaningful insights for people, places and the environment.</p><div class="hero-actions"><a class="button" href="#projects">Explore my work ↗</a><a class="text-link" href="#contact">Let’s connect →</a></div>
 
                   <a href="#about" class="home__scroll">
                      <div class="home__scroll-box">
@@ -120,40 +118,17 @@
                   <span>About Me.</span>
                </h2>
 
-               <div class="about__perfil">
-                  <div class="about__image">
-                     <img src="assets/img/headshot.png" alt="image" class="about__img">
-
-                     <div class="about__shadow"></div>
-
-                     <div class="geometric-box"></div>
-                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
-                     <div class="about__box"></div>
-                  </div>
-               </div>
-
                <div class="about__info">
-                  <p class="about__description">
-                     A Data Scientist dedicated to using Machine Learning and Deep Learning algorithms
-                     to extract meaningful patterns from complex datasets, and build models that provide intelligent solutions.
-                     With background in Geoinformatics, I am passionate about the intersection of Artificial Intelligence, Geospatial Analysis, Remote Sensing and Cloud Computing to 
-                     derive actionable insights that inform critical decisions around environmental monitoring, urban planning, disaster response and business Intelligence.
-                  </p>
+                  <p class="about__description">I work at the intersection of data science and geoinformatics, using machine learning, spatial analysis and Earth observation to make complex information useful. My interests span environmental monitoring, urban planning, disaster response and business intelligence.</p>
 
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b>My Skills Are:</b> Python Programming (Pandas, Scikit-learn,
-                        PyTorch), Database Management Systems (MySQL, PostgreSQL),
-                        GIS & Remote Sensing (ArcGIS Products, QGIS, Google Earth Engine)
-                     </li>
-                  </ul>
+                  <ul class="about__list"><li class="about__item"><b>Data &amp; machine learning</b>Python · Pandas · Scikit-learn · PyTorch</li><li class="about__item"><b>GIS &amp; Earth observation</b>ArcGIS · QGIS · Google Earth Engine</li><li class="about__item"><b>Databases</b>MySQL · PostgreSQL</li></ul>
 
                   <div class="about__buttons">
                      <a href="#contact" class="button">
                         <i class="ri-send-plane-line"></i> Contact Me
                      </a>
 
-                     <a href="https://www.linkedin.com/" target = "_blank" class="button__ghost">
+                     <a href="https://www.linkedin.com/in/adewale004/" target="_blank" rel="noopener noreferrer" class="button__ghost" aria-label="LinkedIn">
                         <i class="ri-linkedin-box-line"></i>
                      </a>
                   </div>
@@ -164,16 +139,16 @@
          <!--==================== SERVICES ====================-->
          <section class="services section">
             <h2 class="section__title-2">
-               <span>Services.</span>
+               <span>What I do.</span>
             </h2>
 
             <div class="services__container container grid">
                <article class="services__card">
-                  <div class="services__border"></div>
+
 
                   <div class="services__content">
                      <div class="services__icon">
-                        <div class="services__box"></div>
+
                         <i class="ri-layout-4-line"></i>
                      </div>
 
@@ -187,11 +162,11 @@
                </article>
 
                <article class="services__card">
-                  <div class="services__border"></div>
+
 
                   <div class="services__content">
                      <div class="services__icon">
-                        <div class="services__box"></div>
+
                         <i class="ri-code-box-line"></i>
                      </div>
 
@@ -204,18 +179,18 @@
                </article>
 
                <article class="services__card">
-                  <div class="services__border"></div>
+
 
                   <div class="services__content">
                      <div class="services__icon">
-                        <div class="services__box"></div>
+
                         <i class="ri-smartphone-line"></i>
                      </div>
 
                      <h2 class="services__title">Remote Sensing</h2>
 
                      <p class="services__description">
-                        Integrating Earth Observation and aerial imagery data for environmental monitoring, change detection, and feature extraction..
+                        Integrating Earth Observation and aerial imagery data for environmental monitoring, change detection, and feature extraction.
                      </p>
                   </div>
                </article>
@@ -225,13 +200,13 @@
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
             <h2 class="section__title-1">
-               <span>Projects.</span>
-            </h2>
+               <span>Selected work.</span>
+            </h2><p class="section-intro">Exploring real-world questions through data, maps and machine learning.</p>
 
             <div class="projects__container container grid">
                <article class="projects__card">
                   <div class="projects__image">
-                     <img src="assets/img/flood.png" alt="image" class="projects__img">
+                     <img src="assets/img/flood.png" alt="Map of flooding in Valencia" loading="lazy" class="projects__img">
 
                      <a href="https://storymaps.arcgis.com/stories/db7c6e8d07c3494cbebe2070aefd5361" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
@@ -245,15 +220,15 @@
                      </a>
 
                      <p class="projects__description">
-                        Leverage Synthentic Aperture Radar (SAR) data to map 2024 flood extent in Valencia, Spain.
-                        Tools Used: Google Earth Engine, Arcgis Pro, Argis StoryMaps
+                        Used Synthetic Aperture Radar (SAR) data to map 2024 flood extent in Valencia, Spain.
+                        Tools Used: Google Earth Engine, ArcGIS Pro, ArcGIS StoryMaps
                      </p>
                   </div>
                </article>
 
-               <article class="projects__card">
+               <article class="projects__card" aria-label="Back to top">
                   <div class="projects__image">
-                     <img src="assets/img/photo-1543353071-873f17a7a088.avif" alt="image" class="projects__img">
+                     <img src="assets/img/photo-1543353071-873f17a7a088.avif" alt="Food photography for the recipe prediction project" loading="lazy" class="projects__img">
 
                      <a href="https://github.com/adewale004/Prediction-High-Traffic-Recipes-For-Tasty-Bytes/blob/main/notebook.ipynb" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
@@ -272,9 +247,9 @@
                   </div>
                </article>
 
-               <article class="projects__card">
+               <article class="projects__card" aria-label="Back to top">
                   <div class="projects__image">
-                     <img src="assets/img/deforestation-clear-cut-landscape_23-2151995194.avif" alt="image" class="projects__img">
+                     <img src="assets/img/deforestation-clear-cut-landscape_23-2151995194.avif" alt="Deforested landscape" loading="lazy" class="projects__img">
 
                      <a href="https://medium.com/@adewale004/impact-of-deforestation-on-climate-change-516dd2e62fcb" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
@@ -294,9 +269,9 @@
                </article>
 
 
-               <article class="projects__card">
+               <article class="projects__card" aria-label="Back to top">
                   <div class="projects__image">
-                     <img src="assets/img/health.jpeg" alt="image" class="projects__img">
+                     <img src="assets/img/health.jpeg" alt="Healthcare infrastructure project" loading="lazy" class="projects__img">
 
                      <a href="https://bit.ly/nga_health" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
@@ -310,14 +285,15 @@
                      </a>
 
                      <p class="projects__description">
-                        Created digital map of Nigeria addressing health infrastructure to echance decision making and development planning.
-                        Tools Used: Arcgis Pro, Arcgis Experience, Argis StoryMaps, Instant Apps
+                        Created digital map of Nigeria addressing health infrastructure to enhance decision making and development planning.
+                        Tools Used: ArcGIS Pro, ArcGIS Experience, ArcGIS StoryMaps, Instant Apps
                      </p>
                   </div>
 
 
-               
-            </div>
+
+            </article>
+</div>
          </section>
 
          <!--==================== CONTACT ====================-->
@@ -328,17 +304,11 @@
                      <span>Contact Me.</span>
                   </h2>
 
-                  <p class="contact__description-1">
-                     I will read all emails. Send me any 
-                     message you want and I'll get back to you.
-                  </p>
+                  <p class="contact__description-1">Have a project, research idea or collaboration in mind? Let’s talk.</p>
 
-                  <p class="contact__description-2">
-                     I need your <b>Name</b> and <b>Email Address</b>, but 
-                     you won't receive anything other than your reply.
-                  </p>
+                  <p class="contact__description-2">Share a little about what you’re working on using the form, or connect with me on LinkedIn.</p>
 
-                  <div class="geometric-box"></div>
+
                </div>
 
                <div class="contact__mail">
@@ -349,12 +319,12 @@
                   <form action="" class="contact__form" id="contact-form">
                      <div class="contact__group">
                         <div class="contact__box">
-                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                           <input type="text" name="user_name" class="contact__input" id="name" autocomplete="given-name" required placeholder="First Name">
                            <label for="name" class="contact__label">First Name</label>
                         </div>
 
                         <div class="contact__box">
-                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                           <input type="email" name="user_email" class="contact__input" id="email" autocomplete="email" required placeholder="Email Address">
                            <label for="email" class="contact__label">Email Address</label>
                         </div>
                      </div>
@@ -369,7 +339,7 @@
                         <label for="message" class="contact__label">Message</label>
                      </div>
 
-                     <p class="contact__message" id="contact-message"></p>
+                     <p class="contact__message" id="contact-message" role="status" aria-live="polite"></p>
 
                      <button type="submit" class="contact__button button">
                         <i class="ri-send-plane-line"></i>Send Message
@@ -378,29 +348,23 @@
                </div>
 
                <div class="contact__social">
-                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
 
                   <div class="contact__social-data">
                      <div>
-                        <p class="contact__social-description-1">
-                           Does not send emails
-                        </p>
+                        <p class="contact__social-description-1">Prefer a conversation?</p>
 
-                        <p class="contact__social-description-2">
-                           Write me on my social networks
-                        </p>
+                        <p class="contact__social-description-2">Find me online</p>
                      </div>
 
                      <div class="contact__social-links">
-                        <a href="https://twitter.com/iseoluwa____/" target="_blank" class="contact__social-link">
+                        <a href="https://twitter.com/iseoluwa____/" target="_blank" rel="noopener noreferrer" class="contact__social-link" aria-label="Twitter">
                            <i class="ri-twitter-line"></i>
                         </a>
 
-                        <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
-                           <i class="ri-instagram-line"></i>
-                        </a>
 
-                        <a href="https://www.linkedin.com/in/adewale004/" target="_blank" class="contact__social-link">
+
+                        <a href="https://www.linkedin.com/in/adewale004/" target="_blank" rel="noopener noreferrer" class="contact__social-link" aria-label="LinkedIn">
                            <i class="ri-linkedin-box-line"></i>
                         </a>
                      </div>
@@ -428,20 +392,20 @@
             </ul>
 
             <span class="footer__copy">
-               &#169; All Rights Reserved By 
+               &#169; All Rights Reserved By
                <a href="#">Adewale Olayemi.</a>
             </span>
          </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
+      <a href="#" class="scrollup" id="scroll-up" aria-label="Back to top">
          <i class="ri-arrow-up-s-line"></i>
       </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
-      
+
+
       <!--=============== EMAIL JS ===============-->
       <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
