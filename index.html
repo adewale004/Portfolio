@@ -13,7 +13,7 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Adewale Olayemi | Data Scientist &amp; Geospatial Analyst</title>
+      <title>Adewale Olayemi | Data Scientist & Geospatial Analyst</title>
    <meta name="description" content="Explore Adewale Olayemi’s projects in data science, geospatial analysis and remote sensing.">
 </head>
    <body>
@@ -38,7 +38,7 @@
 
                   <li class="nav__item">
                      <a href="#about" class="nav__link">About Me</a>
-                  </li>
+                  </li><li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
 
                   <li class="nav__item">
                      <a href="#projects" class="nav__link">Projects</a>
@@ -121,7 +121,7 @@
                <div class="about__info">
                   <p class="about__description">I work at the intersection of data science and geoinformatics, using machine learning, spatial analysis and Earth observation to make complex information useful. My interests span environmental monitoring, urban planning, disaster response and business intelligence.</p>
 
-                  <ul class="about__list"><li class="about__item"><b>Data &amp; machine learning</b>Python · Pandas · Scikit-learn · PyTorch</li><li class="about__item"><b>GIS &amp; Earth observation</b>ArcGIS · QGIS · Google Earth Engine</li><li class="about__item"><b>Databases</b>MySQL · PostgreSQL</li></ul>
+
 
                   <div class="about__buttons">
                      <a href="#contact" class="button">
@@ -136,64 +136,26 @@
             </div>
          </section>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            <h2 class="section__title-2">
-               <span>What I do.</span>
-            </h2>
-
-            <div class="services__container container grid">
-               <article class="services__card">
-
-
-                  <div class="services__content">
-                     <div class="services__icon">
-
-                        <i class="ri-layout-4-line"></i>
-                     </div>
-
-                     <h2 class="services__title">Machine Learning & AI</h2>
-
-                     <p class="services__description">
-                        Developing intelligent solutions using machine learning and deep learning
-                        across diverse domains.
-                     </p>
-                  </div>
-               </article>
-
-               <article class="services__card">
-
-
-                  <div class="services__content">
-                     <div class="services__icon">
-
-                        <i class="ri-code-box-line"></i>
-                     </div>
-
-                     <h2 class="services__title">Geospatial Analysis</h2>
-
-                     <p class="services__description">
-                        Comprehensive spatial analysis and modeling using advanced GIS techniques.
-                     </p>
-                  </div>
-               </article>
-
-               <article class="services__card">
-
-
-                  <div class="services__content">
-                     <div class="services__icon">
-
-                        <i class="ri-smartphone-line"></i>
-                     </div>
-
-                     <h2 class="services__title">Remote Sensing</h2>
-
-                     <p class="services__description">
-                        Integrating Earth Observation and aerial imagery data for environmental monitoring, change detection, and feature extraction.
-                     </p>
-                  </div>
-               </article>
+         <!--==================== SKILLS ====================-->
+         <section aria-labelledby="skills-title" id="skills" class="skills section">
+            <h2 class="section__title-2" id="skills-title"><span>Skills.</span></h2>
+            <div class="skills__container container grid">
+               <div class="skills__group">
+                  <h3 class="skills__heading"><i class="ri-map-2-line" aria-hidden="true"></i>Desktop GIS</h3>
+                  <ul class="skills__tags"><li>ArcGIS</li><li>QGIS</li></ul>
+               </div>
+               <div class="skills__group">
+                  <h3 class="skills__heading"><i class="ri-earth-line" aria-hidden="true"></i>Remote sensing &amp; Earth observation</h3>
+                  <ul class="skills__tags"><li>Google Earth Engine</li></ul>
+               </div>
+               <div class="skills__group">
+                  <h3 class="skills__heading"><i class="ri-code-s-slash-line" aria-hidden="true"></i>Programming &amp; machine learning</h3>
+                  <ul class="skills__tags"><li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>PyTorch</li></ul>
+               </div>
+               <div class="skills__group">
+                  <h3 class="skills__heading"><i class="ri-database-2-line" aria-hidden="true"></i>Databases</h3>
+                  <ul class="skills__tags"><li>MySQL</li><li>PostgreSQL</li></ul>
+               </div>
             </div>
          </section>
 
@@ -208,87 +170,79 @@
                   <div class="projects__image">
                      <img src="assets/img/flood.png" alt="Map of flooding in Valencia" loading="lazy" class="projects__img">
 
-                     <a href="https://storymaps.arcgis.com/stories/db7c6e8d07c3494cbebe2070aefd5361" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
+
                   </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Remote Sensing</h3>
+                  <div class="projects__content"><ul class="projects__tags" aria-label="Project topics"><li>SAR</li><li>Google Earth Engine</li><li>ArcGIS Pro</li></ul>
+
                      <a href="https://storymaps.arcgis.com/stories/db7c6e8d07c3494cbebe2070aefd5361">
-                        <h2 class="projects__title">Flood Detection Mapping Using SAR</h2>
+                        <h3 class="projects__title">Flood Detection Mapping Using SAR</h3>
                      </a>
 
                      <p class="projects__description">
                         Used Synthetic Aperture Radar (SAR) data to map 2024 flood extent in Valencia, Spain.
                         Tools Used: Google Earth Engine, ArcGIS Pro, ArcGIS StoryMaps
                      </p>
-                  </div>
+                  <a class="projects__link" href="https://storymaps.arcgis.com/stories/db7c6e8d07c3494cbebe2070aefd5361" aria-label="View project: Flood Detection Mapping Using SAR">View project <span aria-hidden="true">→</span></a></div>
                </article>
 
-               <article class="projects__card" aria-label="Back to top">
+               <article class="projects__card">
                   <div class="projects__image">
                      <img src="assets/img/photo-1543353071-873f17a7a088.avif" alt="Food photography for the recipe prediction project" loading="lazy" class="projects__img">
 
-                     <a href="https://github.com/adewale004/Prediction-High-Traffic-Recipes-For-Tasty-Bytes/blob/main/notebook.ipynb" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
+
                   </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Data Science</h3>
+                  <div class="projects__content"><ul class="projects__tags" aria-label="Project topics"><li>Data Science</li><li>Prediction</li></ul>
+
                      <a href="https://github.com/adewale004/Prediction-High-Traffic-Recipes-For-Tasty-Bytes/blob/main/notebook.ipynb">
-                        <h2 class="projects__title">Predicting High Traffic Recipes for Tasty Bytes</h2>
+                        <h3 class="projects__title">Predicting High Traffic Recipes for Tasty Bytes</h3>
                      </a>
 
                      <p class="projects__description">
                         Created a data science solution to predict which recipes will lead to high traffic, with a goal of correctly predicting high traffic recipes 80% of the time.
                      </p>
-                  </div>
+                  <a class="projects__link" href="https://github.com/adewale004/Prediction-High-Traffic-Recipes-For-Tasty-Bytes/blob/main/notebook.ipynb" aria-label="View on GitHub: Predicting High Traffic Recipes for Tasty Bytes">View on GitHub <span aria-hidden="true">→</span></a></div>
                </article>
 
-               <article class="projects__card" aria-label="Back to top">
+               <article class="projects__card">
                   <div class="projects__image">
                      <img src="assets/img/deforestation-clear-cut-landscape_23-2151995194.avif" alt="Deforested landscape" loading="lazy" class="projects__img">
 
-                     <a href="https://medium.com/@adewale004/impact-of-deforestation-on-climate-change-516dd2e62fcb" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
+
                   </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Remote Sensing</h3>
+                  <div class="projects__content"><ul class="projects__tags" aria-label="Project topics"><li>Remote Sensing</li><li>Deforestation</li></ul>
+
                      <a href="https://medium.com/@adewale004/impact-of-deforestation-on-climate-change-516dd2e62fcb">
-                        <h2 class="projects__title">Impact of Deforestation on Climate Change</h2>
+                        <h3 class="projects__title">Impact of Deforestation on Climate Change</h3>
                      </a>
 
                      <p class="projects__description">
                         Determined the extent of deforestation of Okomu Forest Reserve and its impact on climate change between 1986 to 2022 using geospatial and remote sensing techniques.
                      </p>
-                  </div>
+                  <a class="projects__link" href="https://medium.com/@adewale004/impact-of-deforestation-on-climate-change-516dd2e62fcb" aria-label="View project: Impact of Deforestation on Climate Change">View project <span aria-hidden="true">→</span></a></div>
                </article>
 
 
-               <article class="projects__card" aria-label="Back to top">
+               <article class="projects__card">
                   <div class="projects__image">
                      <img src="assets/img/health.jpeg" alt="Healthcare infrastructure project" loading="lazy" class="projects__img">
 
-                     <a href="https://bit.ly/nga_health" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
+
                   </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Geospatial</h3>
+                  <div class="projects__content"><ul class="projects__tags" aria-label="Project topics"><li>GIS</li><li>Healthcare</li><li>ArcGIS</li></ul>
+
                      <a href="https://bit.ly/nga_health">
-                        <h2 class="projects__title">Nigeria Health Infrastructure Mapping</h2>
+                        <h3 class="projects__title">Nigeria Health Infrastructure Mapping</h3>
                      </a>
 
                      <p class="projects__description">
                         Created digital map of Nigeria addressing health infrastructure to enhance decision making and development planning.
                         Tools Used: ArcGIS Pro, ArcGIS Experience, ArcGIS StoryMaps, Instant Apps
                      </p>
-                  </div>
+                  <a class="projects__link" href="https://bit.ly/nga_health" aria-label="View project: Nigeria Health Infrastructure Mapping">View project <span aria-hidden="true">→</span></a></div>
 
 
 
@@ -392,7 +346,7 @@
             </ul>
 
             <span class="footer__copy">
-               &#169; All Rights Reserved By
+               © All Rights Reserved By
                <a href="#">Adewale Olayemi.</a>
             </span>
          </div>
@@ -407,7 +361,7 @@
 
 
       <!--=============== EMAIL JS ===============-->
-      <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
